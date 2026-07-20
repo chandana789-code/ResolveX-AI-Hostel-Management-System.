@@ -58,4 +58,33 @@ Admin Dashboard
 
 High / Medium / Low
 
----
+# 🛠 Tech Stack
+
+### Frontend
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+
+### Backend
+
+- Python
+- Flask
+- Flask-SQLAlchemy
+- Jinja2
+
+### Database
+
+- SQLite
+
+### Machine Learning
+
+- Scikit-learn
+- TF-IDF Vectorizer
+- Linear Support Vector Machine (Linear SVM)
+- Joblib
+
+### Development Tools
+
+- VS Code
