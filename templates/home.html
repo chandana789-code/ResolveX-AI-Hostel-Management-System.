@@ -1,0 +1,444 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<!-- ================= HERO SECTION ================= -->
+<section class="py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <span class="badge rounded-pill bg-primary-subtle text-primary px-3 py-2 mb-3">
+                    🎓 AI Powered Hostel Management
+                </span>
+
+                <h1 class="display-3 fw-bold">
+                    Smart Hostel Complaint
+                    <span class="text-primary">&</span>
+                    Room Management System
+                </h1>
+
+                <p class="lead text-secondary mt-4">
+                    Transforming hostel management through intelligent automation.
+                    A centralized platform for complaint registration, room allocation,
+                    complaint tracking and AI-powered complaint prioritization using
+                    <strong>TF-IDF</strong> and <strong>Linear SVM</strong>.
+                </p>
+
+                <div class="mt-4 d-flex flex-wrap gap-3">
+
+                    <a href="/register" class="btn btn-primary btn-lg">
+                        👨‍🎓 Student Registration
+                    </a>
+
+                    <a href="/login" class="btn btn-success btn-lg">
+                        🔑 Student Login
+                    </a>
+
+                    <a href="/admin_login" class="btn btn-dark btn-lg">
+                        👨‍💼 Admin Login
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/3069/3069172.png"
+                     class="img-fluid"
+                     style="max-width:420px;">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PORTALS ================= -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<h2 class="text-center fw-bold mb-5">
+
+System Portals
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="card border-0 shadow-lg rounded-4 h-100">
+
+<div class="card-body text-center p-4">
+
+<h1>👨‍🎓</h1>
+
+<h3 class="fw-bold mt-3">
+Student Portal
+</h3>
+
+<p class="text-secondary">
+
+Register and login to the hostel system, raise complaints,
+track complaint status and submit room allocation requests.
+
+</p>
+
+<ul class="list-group list-group-flush text-start">
+
+<li class="list-group-item">
+✅ Student Registration
+</li>
+
+<li class="list-group-item">
+✅ Student Login
+</li>
+
+<li class="list-group-item">
+✅ Raise Complaint
+</li>
+
+<li class="list-group-item">
+✅ Track Complaint Status
+</li>
+
+<li class="list-group-item">
+✅ Request Hostel Room
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card border-0 shadow-lg rounded-4 h-100">
+
+<div class="card-body text-center p-4">
+
+<h1>👨‍💼</h1>
+
+<h3 class="fw-bold mt-3">
+Admin Portal
+</h3>
+
+<p class="text-secondary">
+
+Manage hostel operations efficiently through a centralized dashboard.
+
+</p>
+
+<ul class="list-group list-group-flush text-start">
+
+<li class="list-group-item">
+✅ Secure Admin Login
+</li>
+
+<li class="list-group-item">
+✅ Manage Complaints
+</li>
+
+<li class="list-group-item">
+✅ Allocate Rooms
+</li>
+
+<li class="list-group-item">
+✅ View Students
+</li>
+
+<li class="list-group-item">
+✅ Hostel Dashboard
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card border-0 shadow-lg rounded-4 h-100">
+
+<div class="card-body text-center p-4">
+
+<h1>🤖</h1>
+
+<h3 class="fw-bold mt-3">
+AI Module
+</h3>
+
+<p class="text-secondary">
+
+Artificial Intelligence automatically prioritizes complaints.
+
+</p>
+
+<ul class="list-group list-group-flush text-start">
+
+<li class="list-group-item">
+✅ TF-IDF Vectorization
+</li>
+
+<li class="list-group-item">
+✅ Linear SVM Classification
+</li>
+
+<li class="list-group-item">
+✅ High / Medium / Low Priority
+</li>
+
+<li class="list-group-item">
+✅ Faster Resolution
+</li>
+
+<li class="list-group-item">
+✅ Smart Decision Support
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+<section id="features" class="py-5">
+
+<div class="container">
+
+<h2 class="fw-bold text-center mb-5">
+
+Project Features
+
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card border-0 shadow rounded-4 h-100">
+
+<div class="card-body text-center">
+
+<h1>📝</h1>
+
+<h4>Complaint Registration</h4>
+
+<p>
+
+Students can submit complaints online with image upload and
+real-time tracking.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card border-0 shadow rounded-4 h-100">
+
+<div class="card-body text-center">
+
+<h1>🏠</h1>
+
+<h4>Room Allocation</h4>
+
+<p>
+
+Administrators allocate hostel rooms based on availability and
+occupancy.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card border-0 shadow rounded-4 h-100">
+
+<div class="card-body text-center">
+
+<h1>🤖</h1>
+
+<h4>AI Complaint Prioritization</h4>
+
+<p>
+
+Machine Learning automatically predicts complaint priority
+using TF-IDF and Linear SVM.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="py-5 bg-light">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-12 text-center">
+
+<h2 class="fw-bold mb-4">
+
+About the Project
+
+</h2>
+
+<p class="lead text-secondary">
+
+The Smart Hostel Complaint & Room Management System digitizes hostel
+administration by providing complaint registration, complaint tracking,
+room allocation and AI-powered complaint prioritization.
+The system minimizes manual effort, improves transparency and helps
+administrators resolve critical complaints faster through intelligent
+classification.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= STATISTICS ================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="row text-center">
+
+<div class="col-md-3">
+
+<h2 class="text-primary fw-bold">
+1500+
+</h2>
+
+<p>Students</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2 class="text-primary fw-bold">
+120+
+</h2>
+
+<p>Hostel Rooms</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2 class="text-primary fw-bold">
+450+
+</h2>
+
+<p>Complaints Managed</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h2 class="text-primary fw-bold">
+98%
+</h2>
+
+<p>Resolution Rate</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="py-5 bg-light">
+
+<div class="container text-center">
+
+<h2 class="fw-bold mb-3">
+
+Contact Us
+
+</h2>
+
+<p class="text-secondary">
+
+📧 support@smarthostel.edu
+
+</p>
+
+<p class="text-secondary">
+
+Smart Hostel Complaint & Room Management System
+
+</p>
+
+<p class="text-muted">
+
+© 2026 All Rights Reserved
+
+</p>
+
+</div>
+
+</section>
+
+{% endblock %}
