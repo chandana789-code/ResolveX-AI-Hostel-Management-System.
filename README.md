@@ -1,0 +1,1 @@
+# ResolveX-AI-Hostel-Management-System.
